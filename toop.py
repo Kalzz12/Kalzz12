@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python2
 #Semoga yang curi script ortunya sehat selalu
 #Ddos by KalzzX
 import random
