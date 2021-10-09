@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-#Semoga yang curi script yatim
+#Semoga yang curi script ortunya sehat selalu
 #Ddos by XalBadoR
 #Join My T3Am : https://discord.gg/fRDAvXsU
 import random
